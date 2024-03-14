@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+
+  // Variables
+  --color-bg: #1e1e1e; // Background color changed
+  --color-green: #fe6800; // Changed to orange
+  --color-silver: #ffffff; // Text color changed to white
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-bg);
+  // Font
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+button {
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sizer {
+  max-width: 1000px;
+  padding: 30px 20px 50px 20px;
+  margin: 0px auto;
+}
